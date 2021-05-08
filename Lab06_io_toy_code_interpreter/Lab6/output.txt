@@ -1,0 +1,733 @@
+[stackOfStatements]
+Compound(bool a  ,Compound(int v  ,Compound(a=true,Compound(If(@a)  (v=2) else (v=3)  ,print(@v)  )  )  )  )  
+[symbolTable]
+
+[outputList]
+
+
+[stackOfStatements]
+Compound(int v  ,Compound(a=true,Compound(If(@a)  (v=2) else (v=3)  ,print(@v)  )  )  )  bool a  
+[symbolTable]
+
+[outputList]
+
+
+[stackOfStatements]
+Compound(int v  ,Compound(a=true,Compound(If(@a)  (v=2) else (v=3)  ,print(@v)  )  )  )  
+[symbolTable]
+a=false  
+[outputList]
+
+
+[stackOfStatements]
+Compound(a=true,Compound(If(@a)  (v=2) else (v=3)  ,print(@v)  )  )  int v  
+[symbolTable]
+a=false  
+[outputList]
+
+
+[stackOfStatements]
+Compound(a=true,Compound(If(@a)  (v=2) else (v=3)  ,print(@v)  )  )  
+[symbolTable]
+a=false  v=0  
+[outputList]
+
+
+[stackOfStatements]
+Compound(If(@a)  (v=2) else (v=3)  ,print(@v)  )  a=true
+[symbolTable]
+a=false  v=0  
+[outputList]
+
+
+[stackOfStatements]
+Compound(If(@a)  (v=2) else (v=3)  ,print(@v)  )  
+[symbolTable]
+a=true  v=0  
+[outputList]
+
+
+[stackOfStatements]
+print(@v)  If(@a)  (v=2) else (v=3)  
+[symbolTable]
+a=true  v=0  
+[outputList]
+
+
+[stackOfStatements]
+print(@v)  v=2
+[symbolTable]
+a=true  v=0  
+[outputList]
+
+
+[stackOfStatements]
+print(@v)  
+[symbolTable]
+a=true  v=2  
+[outputList]
+
+
+[stackOfStatements]
+
+[symbolTable]
+a=true  v=2  
+[outputList]
+2  
+
+[stackOfStatements]
+Compound(int v  ,If(true)  (Compound(v=5,print(( @v+3 ))  )  ) else (print(100)  )  )  
+[symbolTable]
+
+[outputList]
+
+
+[stackOfStatements]
+If(true)  (Compound(v=5,print(( @v+3 ))  )  ) else (print(100)  )  int v  
+[symbolTable]
+
+[outputList]
+
+
+[stackOfStatements]
+If(true)  (Compound(v=5,print(( @v+3 ))  )  ) else (print(100)  )  
+[symbolTable]
+v=0  
+[outputList]
+
+
+[stackOfStatements]
+Compound(v=5,print(( @v+3 ))  )  
+[symbolTable]
+v=0  
+[outputList]
+
+
+[stackOfStatements]
+print(( @v+3 ))  v=5
+[symbolTable]
+v=0  
+[outputList]
+
+
+[stackOfStatements]
+print(( @v+3 ))  
+[symbolTable]
+v=5  
+[outputList]
+
+
+[stackOfStatements]
+
+[symbolTable]
+v=5  
+[outputList]
+8  
+
+[stackOfStatements]
+print(50)  
+[symbolTable]
+
+[outputList]
+
+
+[stackOfStatements]
+
+[symbolTable]
+
+[outputList]
+50  
+
+[stackOfStatements]
+Compound(int v  ,If(true)  (Compound(v=5,print(( @v+3 ))  )  ) else (print(100)  )  )  
+[symbolTable]
+
+[outputList]
+
+
+[stackOfStatements]
+If(true)  (Compound(v=5,print(( @v+3 ))  )  ) else (print(100)  )  int v  
+[symbolTable]
+
+[outputList]
+
+
+[stackOfStatements]
+If(true)  (Compound(v=5,print(( @v+3 ))  )  ) else (print(100)  )  
+[symbolTable]
+v=0  
+[outputList]
+
+
+[stackOfStatements]
+Compound(v=5,print(( @v+3 ))  )  
+[symbolTable]
+v=0  
+[outputList]
+
+
+[stackOfStatements]
+print(( @v+3 ))  v=5
+[symbolTable]
+v=0  
+[outputList]
+
+
+[stackOfStatements]
+print(( @v+3 ))  
+[symbolTable]
+v=5  
+[outputList]
+
+
+[stackOfStatements]
+
+[symbolTable]
+v=5  
+[outputList]
+8  
+
+[stackOfStatements]
+Compound(int v  ,If(true)  (Compound(v=5,print(( @v+3 ))  )  ) else (print(100)  )  )  
+[symbolTable]
+
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+If(true)  (Compound(v=5,print(( @v+3 ))  )  ) else (print(100)  )  int v  
+[symbolTable]
+
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+If(true)  (Compound(v=5,print(( @v+3 ))  )  ) else (print(100)  )  
+[symbolTable]
+v=0  
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+Compound(v=5,print(( @v+3 ))  )  
+[symbolTable]
+v=0  
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+print(( @v+3 ))  v=5
+[symbolTable]
+v=0  
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+print(( @v+3 ))  
+[symbolTable]
+v=5  
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+
+[symbolTable]
+v=5  
+[outputList]
+8  
+[heap]
+
+
+[stackOfStatements]
+print(50)  
+[symbolTable]
+
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+
+[symbolTable]
+
+[outputList]
+50  
+[heap]
+
+
+[stackOfStatements]
+Compound(int v  ,If(true)  (Compound(v=5,print(( @v+3 ))  )  ) else (print(100)  )  )  
+[symbolTable]
+
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+If(true)  (Compound(v=5,print(( @v+3 ))  )  ) else (print(100)  )  int v  
+[symbolTable]
+
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+If(true)  (Compound(v=5,print(( @v+3 ))  )  ) else (print(100)  )  
+[symbolTable]
+v=0  
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+Compound(v=5,print(( @v+3 ))  )  
+[symbolTable]
+v=0  
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+print(( @v+3 ))  v=5
+[symbolTable]
+v=0  
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+print(( @v+3 ))  
+[symbolTable]
+v=5  
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+
+[symbolTable]
+v=5  
+[outputList]
+8  
+[heap]
+
+
+[stackOfStatements]
+Compound(int v  ,If(true)  (Compound(v=5,print(( @v+3 ))  )  ) else (print(100)  )  )  
+[symbolTable]
+
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+If(true)  (Compound(v=5,print(( @v+3 ))  )  ) else (print(100)  )  int v  
+[symbolTable]
+
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+If(true)  (Compound(v=5,print(( @v+3 ))  )  ) else (print(100)  )  
+[symbolTable]
+v=0  
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+Compound(v=5,print(( @v+3 ))  )  
+[symbolTable]
+v=0  
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+print(( @v+3 ))  v=5
+[symbolTable]
+v=0  
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+print(( @v+3 ))  
+[symbolTable]
+v=5  
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+
+[symbolTable]
+v=5  
+[outputList]
+8  
+[heap]
+
+
+[stackOfStatements]
+print(50)  
+[symbolTable]
+
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+
+[symbolTable]
+
+[outputList]
+50  
+[heap]
+
+
+[stackOfStatements]
+Compound(int v  ,If(true)  (Compound(v=5,print(( @v+3 ))  )  ) else (print(100)  )  )  
+[symbolTable]
+
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+If(true)  (Compound(v=5,print(( @v+3 ))  )  ) else (print(100)  )  int v  
+[symbolTable]
+
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+If(true)  (Compound(v=5,print(( @v+3 ))  )  ) else (print(100)  )  
+[symbolTable]
+v=0  
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+Compound(v=5,print(( @v+3 ))  )  
+[symbolTable]
+v=0  
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+print(( @v+3 ))  v=5
+[symbolTable]
+v=0  
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+print(( @v+3 ))  
+[symbolTable]
+v=5  
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+
+[symbolTable]
+v=5  
+[outputList]
+8  
+[heap]
+
+
+[stackOfStatements]
+Compound(int v  ,If(true)  (Compound(v=5,print(( @v+3 ))  )  ) else (print(100)  )  )  
+[symbolTable]
+
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+If(true)  (Compound(v=5,print(( @v+3 ))  )  ) else (print(100)  )  int v  
+[symbolTable]
+
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+If(true)  (Compound(v=5,print(( @v+3 ))  )  ) else (print(100)  )  
+[symbolTable]
+v=0  
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+Compound(v=5,print(( @v+3 ))  )  
+[symbolTable]
+v=0  
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+print(( @v+3 ))  v=5
+[symbolTable]
+v=0  
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+print(( @v+3 ))  
+[symbolTable]
+v=5  
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+
+[symbolTable]
+v=5  
+[outputList]
+8  
+[heap]
+
+
+[stackOfStatements]
+print(50)  
+[symbolTable]
+
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+
+[symbolTable]
+
+[outputList]
+50  
+[heap]
+
+
+[stackOfStatements]
+Compound(int v  ,If(true)  (Compound(v=5,print(( @v+3 ))  )  ) else (print(100)  )  )  
+[symbolTable]
+
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+If(true)  (Compound(v=5,print(( @v+3 ))  )  ) else (print(100)  )  int v  
+[symbolTable]
+
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+If(true)  (Compound(v=5,print(( @v+3 ))  )  ) else (print(100)  )  
+[symbolTable]
+v=0  
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+Compound(v=5,print(( @v+3 ))  )  
+[symbolTable]
+v=0  
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+print(( @v+3 ))  v=5
+[symbolTable]
+v=0  
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+print(( @v+3 ))  
+[symbolTable]
+v=5  
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+
+[symbolTable]
+v=5  
+[outputList]
+8  
+[heap]
+
+
+[stackOfStatements]
+Compound(int v  ,If(true)  (Compound(v=5,print(( @v+3 ))  )  ) else (print(100)  )  )  
+[symbolTable]
+
+[outputList]
+
+
+[stackOfStatements]
+If(true)  (Compound(v=5,print(( @v+3 ))  )  ) else (print(100)  )  int v  
+[symbolTable]
+
+[outputList]
+
+
+[stackOfStatements]
+If(true)  (Compound(v=5,print(( @v+3 ))  )  ) else (print(100)  )  
+[symbolTable]
+v=0  
+[outputList]
+
+
+[stackOfStatements]
+Compound(v=5,print(( @v+3 ))  )  
+[symbolTable]
+v=0  
+[outputList]
+
+
+[stackOfStatements]
+print(( @v+3 ))  v=5
+[symbolTable]
+v=0  
+[outputList]
+
+
+[stackOfStatements]
+print(( @v+3 ))  
+[symbolTable]
+v=5  
+[outputList]
+
+
+[stackOfStatements]
+
+[symbolTable]
+v=5  
+[outputList]
+8  
+
+[stackOfStatements]
+print(50)  
+[symbolTable]
+
+[outputList]
+
+
+[stackOfStatements]
+
+[symbolTable]
+
+[outputList]
+50  
+
+[stackOfStatements]
+Compound(int v  ,If(true)  (Compound(v=5,print(( @v+3 ))  )  ) else (print(100)  )  )  
+[symbolTable]
+
+[outputList]
+
+
+[stackOfStatements]
+If(true)  (Compound(v=5,print(( @v+3 ))  )  ) else (print(100)  )  int v  
+[symbolTable]
+
+[outputList]
+
+
+[stackOfStatements]
+If(true)  (Compound(v=5,print(( @v+3 ))  )  ) else (print(100)  )  
+[symbolTable]
+v=0  
+[outputList]
+
+
+[stackOfStatements]
+Compound(v=5,print(( @v+3 ))  )  
+[symbolTable]
+v=0  
+[outputList]
+
+
+[stackOfStatements]
+print(( @v+3 ))  v=5
+[symbolTable]
+v=0  
+[outputList]
+
+
+[stackOfStatements]
+print(( @v+3 ))  
+[symbolTable]
+v=5  
+[outputList]
+
+
+[stackOfStatements]
+
+[symbolTable]
+v=5  
+[outputList]
+8  
+

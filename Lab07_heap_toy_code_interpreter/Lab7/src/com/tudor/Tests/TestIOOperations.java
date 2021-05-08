@@ -1,0 +1,46 @@
+package com.tudor.Tests;
+
+import com.tudor.Model.ADTs.*;
+import com.tudor.Model.Expressions.Expression;
+import com.tudor.Model.Expressions.ValueExpression;
+import com.tudor.Model.ProgramState;
+import com.tudor.Model.Statements.*;
+import com.tudor.Model.Values.IntValue;
+import com.tudor.Model.Values.StringValue;
+import com.tudor.Model.Values.Value;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+import java.io.BufferedReader;
+
+public class TestIOOperations {
+    @Test
+    public void shouldUseTest1__VariablesWillBeDeclaredInSymbolTable(){
+        IStack<Statement> stackOfStatements = new MyStack<>();
+        IDict<String, Value>symbolTable = new MyDict<>();
+        IList<Value> outputList = new MyList<>();
+        IDict<StringValue, BufferedReader>fileTable = new MyDict<>();
+
+
+        String fileName = "C:\\Users\\Tudor\\Desktop\\D\\faculta\\SemIII\\MAP\\Labs\\week 6 (3- 6November)\\Lab6\\test1.in";
+        Expression stringAsExpression = new ValueExpression(new StringValue(fileName));
+
+        Statement openFile = new openRFile(stringAsExpression);
+        Statement setValue1 = new readFile(stringAsExpression,"variable");
+        Statement setValue2 = new readFile(stringAsExpression,"variable");
+        Statement closeFile = new closeRFile(stringAsExpression);
+        ProgramState myProgramState = new ProgramState(stackOfStatements,symbolTable,outputList,fileTable);
+
+        stackOfStatements.push(openFile);
+        stackOfStatements.push(setValue1);
+        stackOfStatements.push(setValue2);
+
+        ProgramState newState = openFile.execute(myProgramState);
+        ProgramState newState2 = setValue1.execute(newState);
+        Assertions.assertEquals(newState2.getSymTable().lookup("variable"),new IntValue(15));
+        ProgramState newState3 = setValue2.execute(newState);
+        Assertions.assertEquals(newState2.getSymTable().lookup("variable"),new IntValue(50));
+        closeFile.execute(newState3);
+
+    }
+}

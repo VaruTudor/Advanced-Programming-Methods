@@ -1,0 +1,270 @@
+[stackOfStatements]
+Compound(reference v  ,Compound(new(v,20),Compound(reference a  ,Compound(new(a,@v),Compound(new(v,30),print(rH(rH(@a)))  )  )  )  )  )  
+[symbolTable]
+
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+Compound(new(v,20),Compound(reference a  ,Compound(new(a,@v),Compound(new(v,30),print(rH(rH(@a)))  )  )  )  )  reference v  
+[symbolTable]
+
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+Compound(new(v,20),Compound(reference a  ,Compound(new(a,@v),Compound(new(v,30),print(rH(rH(@a)))  )  )  )  )  reference v  
+[symbolTable]
+
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+Compound(new(v,20),Compound(reference a  ,Compound(new(a,@v),Compound(new(v,30),print(rH(rH(@a)))  )  )  )  )  
+[symbolTable]
+v=RefValue(0,int)  
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+Compound(new(v,20),Compound(reference a  ,Compound(new(a,@v),Compound(new(v,30),print(rH(rH(@a)))  )  )  )  )  
+[symbolTable]
+v=RefValue(0,int)  
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+Compound(reference a  ,Compound(new(a,@v),Compound(new(v,30),print(rH(rH(@a)))  )  )  )  new(v,20)
+[symbolTable]
+v=RefValue(0,int)  
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+Compound(reference a  ,Compound(new(a,@v),Compound(new(v,30),print(rH(rH(@a)))  )  )  )  new(v,20)
+[symbolTable]
+v=RefValue(0,int)  
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+Compound(reference a  ,Compound(new(a,@v),Compound(new(v,30),print(rH(rH(@a)))  )  )  )  
+[symbolTable]
+v=RefValue(1,int)  
+[outputList]
+
+[heap]
+1=20  
+
+[stackOfStatements]
+Compound(reference a  ,Compound(new(a,@v),Compound(new(v,30),print(rH(rH(@a)))  )  )  )  
+[symbolTable]
+v=RefValue(1,int)  
+[outputList]
+
+[heap]
+1=20  
+
+[stackOfStatements]
+Compound(new(a,@v),Compound(new(v,30),print(rH(rH(@a)))  )  )  reference a  
+[symbolTable]
+v=RefValue(1,int)  
+[outputList]
+
+[heap]
+1=20  
+
+[stackOfStatements]
+Compound(new(a,@v),Compound(new(v,30),print(rH(rH(@a)))  )  )  reference a  
+[symbolTable]
+v=RefValue(1,int)  
+[outputList]
+
+[heap]
+1=20  
+
+[stackOfStatements]
+Compound(new(a,@v),Compound(new(v,30),print(rH(rH(@a)))  )  )  
+[symbolTable]
+a=RefValue(0,reference)  v=RefValue(1,int)  
+[outputList]
+
+[heap]
+1=20  
+
+[stackOfStatements]
+Compound(new(a,@v),Compound(new(v,30),print(rH(rH(@a)))  )  )  
+[symbolTable]
+a=RefValue(0,reference)  v=RefValue(1,int)  
+[outputList]
+
+[heap]
+1=20  
+
+[stackOfStatements]
+Compound(new(v,30),print(rH(rH(@a)))  )  new(a,@v)
+[symbolTable]
+a=RefValue(0,reference)  v=RefValue(1,int)  
+[outputList]
+
+[heap]
+1=20  
+
+[stackOfStatements]
+Compound(new(v,30),print(rH(rH(@a)))  )  new(a,@v)
+[symbolTable]
+a=RefValue(0,reference)  v=RefValue(1,int)  
+[outputList]
+
+[heap]
+1=20  
+
+[stackOfStatements]
+Compound(new(v,30),print(rH(rH(@a)))  )  
+[symbolTable]
+a=RefValue(2,reference)  v=RefValue(1,int)  
+[outputList]
+
+[heap]
+1=20  2=RefValue(1,int)  
+
+[stackOfStatements]
+Compound(new(v,30),print(rH(rH(@a)))  )  
+[symbolTable]
+a=RefValue(2,reference)  v=RefValue(1,int)  
+[outputList]
+
+[heap]
+1=20  2=RefValue(1,int)  
+
+[stackOfStatements]
+print(rH(rH(@a)))  new(v,30)
+[symbolTable]
+a=RefValue(2,reference)  v=RefValue(1,int)  
+[outputList]
+
+[heap]
+1=20  2=RefValue(1,int)  
+
+[stackOfStatements]
+print(rH(rH(@a)))  new(v,30)
+[symbolTable]
+a=RefValue(2,reference)  v=RefValue(1,int)  
+[outputList]
+
+[heap]
+1=20  2=RefValue(1,int)  
+
+[stackOfStatements]
+print(rH(rH(@a)))  
+[symbolTable]
+a=RefValue(2,reference)  v=RefValue(3,int)  
+[outputList]
+
+[heap]
+1=20  2=RefValue(1,int)  3=30  
+
+[stackOfStatements]
+print(rH(rH(@a)))  
+[symbolTable]
+a=RefValue(2,reference)  v=RefValue(3,int)  
+[outputList]
+
+[heap]
+1=20  2=RefValue(1,int)  3=30  
+
+[stackOfStatements]
+
+[symbolTable]
+a=RefValue(2,reference)  v=RefValue(3,int)  
+[outputList]
+20  
+[heap]
+1=20  2=RefValue(1,int)  3=30  
+
+[stackOfStatements]
+
+[symbolTable]
+a=RefValue(2,reference)  v=RefValue(3,int)  
+[outputList]
+20  
+[heap]
+1=20  2=RefValue(1,int)  3=30  
+
+[stackOfStatements]
+Compound(bool a  ,Compound(int v  ,Compound(a=true,Compound(If(@a)  (v=2) else (v=3)  ,print(@v)  )  )  )  )  
+[symbolTable]
+
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+Compound(int v  ,Compound(a=true,Compound(If(@a)  (v=2) else (v=3)  ,print(@v)  )  )  )  bool a  
+[symbolTable]
+
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+Compound(int v  ,Compound(a=true,Compound(If(@a)  (v=2) else (v=3)  ,print(@v)  )  )  )  bool a  
+[symbolTable]
+
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+Compound(bool a  ,Compound(int v  ,Compound(a=true,Compound(If(@a)  (v=2) else (v=3)  ,print(@v)  )  )  )  )  
+[symbolTable]
+
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+Compound(int v  ,Compound(a=true,Compound(If(@a)  (v=2) else (v=3)  ,print(@v)  )  )  )  bool a  
+[symbolTable]
+
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+Compound(int v  ,Compound(a=true,Compound(If(@a)  (v=2) else (v=3)  ,print(@v)  )  )  )  bool a  
+[symbolTable]
+
+[outputList]
+
+[heap]
+
+
+[stackOfStatements]
+Compound(int v  ,Compound(a=true,Compound(If(@a)  (v=2) else (v=3)  ,print(@v)  )  )  )  
+[symbolTable]
+a=false  
+[outputList]
+
+[heap]
+
+
