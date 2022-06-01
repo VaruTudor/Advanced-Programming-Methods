@@ -1,0 +1,851 @@
+--------------------------------------------------------
+id = 0
+[stackOfStatements]
+Compound(int v  ,Compound(int x  ,Compound(int y  ,Compound(v=0  ,Compound(While(@v==3)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  ),Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  )  )  )  )  )  
+[symbolTable]
+
+[outputList]
+
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+int v  Compound(int x  ,Compound(int y  ,Compound(v=0  ,Compound(While(@v==3)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  ),Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  )  )  )  )  
+[symbolTable]
+
+[outputList]
+
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+int v  Compound(int x  ,Compound(int y  ,Compound(v=0  ,Compound(While(@v==3)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  ),Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  )  )  )  )  
+[symbolTable]
+
+[outputList]
+
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+Compound(int x  ,Compound(int y  ,Compound(v=0  ,Compound(While(@v==3)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  ),Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  )  )  )  )  
+[symbolTable]
+v=0  
+[outputList]
+
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+Compound(int x  ,Compound(int y  ,Compound(v=0  ,Compound(While(@v==3)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  ),Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  )  )  )  )  
+[symbolTable]
+v=0  
+[outputList]
+
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+int x  Compound(int y  ,Compound(v=0  ,Compound(While(@v==3)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  ),Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  )  )  )  
+[symbolTable]
+v=0  
+[outputList]
+
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+int x  Compound(int y  ,Compound(v=0  ,Compound(While(@v==3)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  ),Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  )  )  )  
+[symbolTable]
+v=0  
+[outputList]
+
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+Compound(int y  ,Compound(v=0  ,Compound(While(@v==3)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  ),Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  )  )  )  
+[symbolTable]
+v=0  x=0  
+[outputList]
+
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+Compound(int y  ,Compound(v=0  ,Compound(While(@v==3)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  ),Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  )  )  )  
+[symbolTable]
+v=0  x=0  
+[outputList]
+
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+int y  Compound(v=0  ,Compound(While(@v==3)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  ),Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  )  )  
+[symbolTable]
+v=0  x=0  
+[outputList]
+
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+int y  Compound(v=0  ,Compound(While(@v==3)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  ),Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  )  )  
+[symbolTable]
+v=0  x=0  
+[outputList]
+
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+Compound(v=0  ,Compound(While(@v==3)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  ),Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  )  )  
+[symbolTable]
+v=0  x=0  y=0  
+[outputList]
+
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+Compound(v=0  ,Compound(While(@v==3)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  ),Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  )  )  
+[symbolTable]
+v=0  x=0  y=0  
+[outputList]
+
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+v=0  Compound(While(@v==3)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  ),Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  )  
+[symbolTable]
+v=0  x=0  y=0  
+[outputList]
+
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+v=0  Compound(While(@v==3)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  ),Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  )  
+[symbolTable]
+v=0  x=0  y=0  
+[outputList]
+
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+Compound(While(@v==3)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  ),Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  )  
+[symbolTable]
+v=0  x=0  y=0  
+[outputList]
+
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+Compound(While(@v==3)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  ),Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  )  
+[symbolTable]
+v=0  x=0  y=0  
+[outputList]
+
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+While(@v==3)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  )Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  
+[symbolTable]
+v=0  x=0  y=0  
+[outputList]
+
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+While(@v==3)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  )Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  
+[symbolTable]
+v=0  x=0  y=0  
+[outputList]
+
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+Compound(Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  ,While(! @v==3;)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  ))  Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  
+[symbolTable]
+v=0  x=0  y=0  
+[outputList]
+
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+Compound(Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  ,While(! @v==3;)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  ))  Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  
+[symbolTable]
+v=0  x=0  y=0  
+[outputList]
+
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  While(! @v==3;)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  )Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  
+[symbolTable]
+v=0  x=0  y=0  
+[outputList]
+
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  While(! @v==3;)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  )Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  
+[symbolTable]
+v=0  x=0  y=0  
+[outputList]
+
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+fork(Compound(print(@v)  ,v=@v-1  )  )  v=@v+1  While(! @v==3;)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  )Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  
+[symbolTable]
+v=0  x=0  y=0  
+[outputList]
+
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+fork(Compound(print(@v)  ,v=@v-1  )  )  v=@v+1  While(! @v==3;)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  )Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  
+[symbolTable]
+v=0  x=0  y=0  
+[outputList]
+
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+v=@v+1  While(! @v==3;)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  )Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  
+[symbolTable]
+v=0  x=0  y=0  
+[outputList]
+
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 1
+[stackOfStatements]
+Compound(print(@v)  ,v=@v-1  )  
+[symbolTable]
+x=0  y=0  v=0  
+[outputList]
+
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+v=@v+1  While(! @v==3;)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  )Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  
+[symbolTable]
+v=0  x=0  y=0  
+[outputList]
+
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 1
+[stackOfStatements]
+Compound(print(@v)  ,v=@v-1  )  
+[symbolTable]
+x=0  y=0  v=0  
+[outputList]
+
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+While(! @v==3;)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  )Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  
+[symbolTable]
+v=1  x=0  y=0  
+[outputList]
+
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 1
+[stackOfStatements]
+print(@v)  v=@v-1  
+[symbolTable]
+x=0  y=0  v=0  
+[outputList]
+
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+While(! @v==3;)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  )Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  
+[symbolTable]
+v=1  x=0  y=0  
+[outputList]
+
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 1
+[stackOfStatements]
+print(@v)  v=@v-1  
+[symbolTable]
+x=0  y=0  v=0  
+[outputList]
+
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  While(! @v==3;)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  )Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  
+[symbolTable]
+v=1  x=0  y=0  
+[outputList]
+0  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 1
+[stackOfStatements]
+v=@v-1  
+[symbolTable]
+x=0  y=0  v=0  
+[outputList]
+0  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  While(! @v==3;)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  )Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  
+[symbolTable]
+v=1  x=0  y=0  
+[outputList]
+0  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 1
+[stackOfStatements]
+v=@v-1  
+[symbolTable]
+x=0  y=0  v=0  
+[outputList]
+0  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+fork(Compound(print(@v)  ,v=@v-1  )  )  v=@v+1  While(! @v==3;)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  )Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  
+[symbolTable]
+v=1  x=0  y=0  
+[outputList]
+0  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 1
+[stackOfStatements]
+
+[symbolTable]
+x=0  y=0  v=-1  
+[outputList]
+0  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+fork(Compound(print(@v)  ,v=@v-1  )  )  v=@v+1  While(! @v==3;)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  )Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  
+[symbolTable]
+v=1  x=0  y=0  
+[outputList]
+0  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+v=@v+1  While(! @v==3;)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  )Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  
+[symbolTable]
+v=1  x=0  y=0  
+[outputList]
+0  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 2
+[stackOfStatements]
+Compound(print(@v)  ,v=@v-1  )  
+[symbolTable]
+x=0  y=0  v=1  
+[outputList]
+0  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+v=@v+1  While(! @v==3;)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  )Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  
+[symbolTable]
+v=1  x=0  y=0  
+[outputList]
+0  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 2
+[stackOfStatements]
+Compound(print(@v)  ,v=@v-1  )  
+[symbolTable]
+x=0  y=0  v=1  
+[outputList]
+0  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+While(! @v==3;)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  )Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  
+[symbolTable]
+v=2  x=0  y=0  
+[outputList]
+0  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 2
+[stackOfStatements]
+print(@v)  v=@v-1  
+[symbolTable]
+x=0  y=0  v=1  
+[outputList]
+0  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+While(! @v==3;)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  )Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  
+[symbolTable]
+v=2  x=0  y=0  
+[outputList]
+0  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 2
+[stackOfStatements]
+print(@v)  v=@v-1  
+[symbolTable]
+x=0  y=0  v=1  
+[outputList]
+0  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  While(! @v==3;)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  )Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  
+[symbolTable]
+v=2  x=0  y=0  
+[outputList]
+0  1  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 2
+[stackOfStatements]
+v=@v-1  
+[symbolTable]
+x=0  y=0  v=1  
+[outputList]
+0  1  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  While(! @v==3;)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  )Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  
+[symbolTable]
+v=2  x=0  y=0  
+[outputList]
+0  1  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 2
+[stackOfStatements]
+v=@v-1  
+[symbolTable]
+x=0  y=0  v=1  
+[outputList]
+0  1  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+fork(Compound(print(@v)  ,v=@v-1  )  )  v=@v+1  While(! @v==3;)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  )Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  
+[symbolTable]
+v=2  x=0  y=0  
+[outputList]
+0  1  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 2
+[stackOfStatements]
+
+[symbolTable]
+x=0  y=0  v=0  
+[outputList]
+0  1  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+fork(Compound(print(@v)  ,v=@v-1  )  )  v=@v+1  While(! @v==3;)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  )Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  
+[symbolTable]
+v=2  x=0  y=0  
+[outputList]
+0  1  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+v=@v+1  While(! @v==3;)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  )Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  
+[symbolTable]
+v=2  x=0  y=0  
+[outputList]
+0  1  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 3
+[stackOfStatements]
+Compound(print(@v)  ,v=@v-1  )  
+[symbolTable]
+x=0  y=0  v=2  
+[outputList]
+0  1  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+v=@v+1  While(! @v==3;)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  )Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  
+[symbolTable]
+v=2  x=0  y=0  
+[outputList]
+0  1  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 3
+[stackOfStatements]
+Compound(print(@v)  ,v=@v-1  )  
+[symbolTable]
+x=0  y=0  v=2  
+[outputList]
+0  1  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+While(! @v==3;)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  )Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  
+[symbolTable]
+v=3  x=0  y=0  
+[outputList]
+0  1  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 3
+[stackOfStatements]
+print(@v)  v=@v-1  
+[symbolTable]
+x=0  y=0  v=2  
+[outputList]
+0  1  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+While(! @v==3;)  (Compound(fork(Compound(print(@v)  ,v=@v-1  )  )  ,v=@v+1  )  )Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  
+[symbolTable]
+v=3  x=0  y=0  
+[outputList]
+0  1  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 3
+[stackOfStatements]
+print(@v)  v=@v-1  
+[symbolTable]
+x=0  y=0  v=2  
+[outputList]
+0  1  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  
+[symbolTable]
+v=3  x=0  y=0  
+[outputList]
+0  1  2  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 3
+[stackOfStatements]
+v=@v-1  
+[symbolTable]
+x=0  y=0  v=2  
+[outputList]
+0  1  2  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+Compound(x=1  ,Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  )  
+[symbolTable]
+v=3  x=0  y=0  
+[outputList]
+0  1  2  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 3
+[stackOfStatements]
+v=@v-1  
+[symbolTable]
+x=0  y=0  v=2  
+[outputList]
+0  1  2  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+x=1  Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  
+[symbolTable]
+v=3  x=0  y=0  
+[outputList]
+0  1  2  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 3
+[stackOfStatements]
+
+[symbolTable]
+x=0  y=0  v=1  
+[outputList]
+0  1  2  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+x=1  Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  
+[symbolTable]
+v=3  x=0  y=0  
+[outputList]
+0  1  2  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  
+[symbolTable]
+v=3  x=1  y=0  
+[outputList]
+0  1  2  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+Compound(nop(),Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  )  
+[symbolTable]
+v=3  x=1  y=0  
+[outputList]
+0  1  2  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+nop()Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  
+[symbolTable]
+v=3  x=1  y=0  
+[outputList]
+0  1  2  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+nop()Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  
+[symbolTable]
+v=3  x=1  y=0  
+[outputList]
+0  1  2  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  
+[symbolTable]
+v=3  x=1  y=0  
+[outputList]
+0  1  2  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+Compound(y=3  ,Compound(nop(),print(@v*10)  )  )  
+[symbolTable]
+v=3  x=1  y=0  
+[outputList]
+0  1  2  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+y=3  Compound(nop(),print(@v*10)  )  
+[symbolTable]
+v=3  x=1  y=0  
+[outputList]
+0  1  2  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+y=3  Compound(nop(),print(@v*10)  )  
+[symbolTable]
+v=3  x=1  y=0  
+[outputList]
+0  1  2  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+Compound(nop(),print(@v*10)  )  
+[symbolTable]
+v=3  x=1  y=3  
+[outputList]
+0  1  2  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+Compound(nop(),print(@v*10)  )  
+[symbolTable]
+v=3  x=1  y=3  
+[outputList]
+0  1  2  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+nop()print(@v*10)  
+[symbolTable]
+v=3  x=1  y=3  
+[outputList]
+0  1  2  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+nop()print(@v*10)  
+[symbolTable]
+v=3  x=1  y=3  
+[outputList]
+0  1  2  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+print(@v*10)  
+[symbolTable]
+v=3  x=1  y=3  
+[outputList]
+0  1  2  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+print(@v*10)  
+[symbolTable]
+v=3  x=1  y=3  
+[outputList]
+0  1  2  
+[heap]
+
+----------------------------------------------------------------------------------------------------------------
+id = 0
+[stackOfStatements]
+
+[symbolTable]
+v=3  x=1  y=3  
+[outputList]
+0  1  2  30  
+[heap]
+
+--------------------------------------------------------
